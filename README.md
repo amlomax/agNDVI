@@ -49,5 +49,3 @@ Benos, L., Tagarakis, A. C., Dolias, G., Berruto, R., Kateris, D., & Bochtis, D.
 
 Shah, K. K., Modi, B., Pandey, H. P., Subedi, A., Aryal, G., Pandey, M., & Shrestha, J. (2021). Diversified crop rotation: an approach for sustainable agriculture production. Advances in Agriculture, 2021, 1-9.
 
-### Note
-Depending on how challenging this sketched out plan ends up being, I want to maybe plan how a machine learning model could be programmed using the datasets and results to predict areas that may thrive more given adverse conditions. 
