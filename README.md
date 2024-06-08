@@ -1,10 +1,10 @@
-# Crop Management Using NDVI Data
+# NDVI vs. Soil Moisture 
 
 ## Ava Lomax
 github: amlomax
 
 ### Summary
-For this project I want to utilize NDVI data to assess vegetation health of agricultural areas, specifically areas with stress. I want to then complete an analysis on soil and look at factors such as fertilizer, overall tempeature, precipitation, etc. 
+For this project I want to utilize NDVI data to assess vegetation health of an agricultural area (Merced, CA). I want to then complete an correlation analysis to determine the impact of Climate Smart initiatives. 
 
 ### Objectives
 * Have NDVI as a foundation for agricultural management 
@@ -18,26 +18,25 @@ I'm still in the process of finding datasets that will correlate with eachother,
 
 Climate related:
 
-* Precipitation 
-
-
-https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-precipitation?tab=form
-
-* Temperature 
-
-https://cds.climate.copernicus.eu/cdsapp#!/dataset/insitu-gridded-observations-global-and-regional?tab=form
+* Soil Moisture: SMAP data
 
 ### Python Packages
 * rasterio 
 * numpy
 * matplotlib
 * geopandas
+* h5py
+* rioxarray
+* os
+* xarray
+* glob
 
 ### Planned Approach
-1. Research more on different indicators of successful (or unsuccessful) agricultural production to gather the needed datasets. 
-2. Find 3-5 areas to focus on (primarily agricultural regions) and maybe find 3 time periods to analyze
-3. Get the NDVIs for each area, get data on healthiest and most stressed areas
-4. Compare this data to soil data 
+1. Download and read soil moisture and NDVI datasets
+2. process data and extract values into GDFs
+3. Merge data based on geometries
+4. Correlation analysis
+5. Time series analysis
 
 
 ### Expected Outcomes
