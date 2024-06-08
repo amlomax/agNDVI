@@ -4,7 +4,7 @@
 github: amlomax
 
 ### Summary
-For this project I want to utilize NDVI data to assess vegetation health of an agricultural area (Merced, CA). I want to then complete an correlation analysis to determine the impact of Climate Smart initiatives. 
+For this project I want to utilize NDVI data to assess vegetation health of an agricultural area (Merced, CA). I want to then complete an correlation analysis to determine the impact of Climate Smart initiatives. I am also comparing whether or not topographic differences influence the correlations. I am comparing 2017, 2020, and 2023. 
 
 ### Objectives
 * Have NDVI as a foundation for agricultural management 
@@ -12,11 +12,7 @@ For this project I want to utilize NDVI data to assess vegetation health of an a
 * Get an understanding of the relation between vegetation stress and soil mangement 
 
 ### Datasets
-I'm still in the process of finding datasets that will correlate with eachother, however here are some examples of datasets I plan on using (will be updating this as I work):
-
 * USGS Earth Explorer for Landsat images to use
-
-Climate related:
 
 * Soil Moisture: SMAP data
 
